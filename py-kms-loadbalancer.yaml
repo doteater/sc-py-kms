@@ -13,6 +13,7 @@ spec:
   ipFamilies:
     - IPv4
   ipFamilyPolicy: SingleStack
+  loadBalancerIP: 10.9.15.150
   ports:
     - name: tcp1688
       nodePort: 30580
@@ -28,7 +29,3 @@ spec:
     workload.user.cattle.io/workloadselector: apps.deployment-default-py-kms
   sessionAffinity: None
   type: LoadBalancer
-status:
-  loadBalancer:
-    ingress:
-      - ip: 10.9.15.100
