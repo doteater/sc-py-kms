@@ -8,7 +8,6 @@ metadata:
       controller: true
       kind: Deployment
       name: py-kms
-  uid: d13efe75-b939-447f-a33f-5160bc9860c5
 spec:
   allocateLoadBalancerNodePorts: true
   clusterIP: 10.43.17.254
