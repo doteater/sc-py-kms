@@ -3,11 +3,6 @@ kind: Service
 metadata:
   name: py-kms-loadbalancer
   namespace: default
-  ownerReferences:
-    - apiVersion: apps/v1
-      controller: true
-      kind: Deployment
-      name: py-kms
 spec:
   allocateLoadBalancerNodePorts: true
   clusterIP: 10.43.17.254
