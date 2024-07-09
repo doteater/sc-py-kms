@@ -5,8 +5,6 @@ metadata:
     deployment.kubernetes.io/revision: '8'
     field.cattle.io/publicEndpoints: >-
       [{"addresses":["10.9.15.150"],"port":1688,"protocol":"TCP","serviceName":"default:py-kms-loadbalancer","allNodes":false},{"addresses":["10.9.15.150"],"port":8080,"protocol":"TCP","serviceName":"default:py-kms-loadbalancer","allNodes":false}]
-  labels:
-    workload.user.cattle.io/workloadselector: apps.deployment-default-py-kms
   name: py-kms
 spec:
   progressDeadlineSeconds: 600
