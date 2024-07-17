@@ -10,7 +10,7 @@ spec:
   ipFamilies:
     - IPv4
   ipFamilyPolicy: SingleStack
-  loadBalancerIP: 10.9.15.150
+  loadBalancerIP: 10.9.8.201
   ports:
     - name: tcp1688
       nodePort: 30580
